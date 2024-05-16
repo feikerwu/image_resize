@@ -6,7 +6,7 @@ const inputImagePath = 'watermark.png';
 // 设定输出图片路径
 const outputImagePath = 'watermark_resized.png';
 // 设置新高度
-const newHeight = 150;
+const newHeight = 35;
 
 sharp(inputImagePath)
   .resize({ height: newHeight })
